@@ -129,6 +129,7 @@
 			script = document.createElement("script");
 			if (script_obj.type) script.type = script_obj.type;
 			if (script_obj.charset) script.charset = script_obj.charset;
+			if (script_obj.crossorigin) script.crossOrigin = script_obj.crossorigin;
 			
 			// should preloading be used for this script?
 			if (preload_this_script) {
